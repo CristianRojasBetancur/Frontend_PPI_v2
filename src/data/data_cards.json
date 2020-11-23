@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "Prenda": "Camisa educación física",
+    "precio": "Desde $ 19.300",
+    "img": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/1.jpg?raw=true"
+  },
+  {
+    "id": 1,
+    "Prenda": "Camisa educación física",
+    "precio": "Desde $ 19.300",
+    "img": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/2.jpg?raw=true"
+  },
+  {
+    "id": 2,
+    "Prenda": "Camisa educación física",
+    "precio": "Desde $ 19.300",
+    "img": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/3.jpg?raw=true"
+  },
+  {
+    "id": 3,
+    "Prenda": "Camisa educación física",
+    "precio": "Desde $ 19.300",
+    "img": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/1.jpg?raw=true"
+  },
+  {
+    "id": 4,
+    "Prenda": "Camisa educación física",
+    "precio": "Desde $ 19.300",
+    "img": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/2.jpg?raw=true"
+  },
+  {
+    "id": 5,
+    "Prenda": "Camisa educación física",
+    "precio": "Desde $ 19.300",
+    "img": "https://github.com/CristianRojasBetancur/Frontend_PPI/blob/master/src/img/3.jpg?raw=true"
+  }
+]
