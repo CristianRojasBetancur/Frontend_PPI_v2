@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Card } from "react-bootstrap";
-import imagen from "../img/1.jpg";
+import imagen from "../img/2.jpg";
 
 export default class Carrito extends Component {
   render() {

@@ -1,8 +1,6 @@
 import React from "react";
 import { Component } from "react";
 import { Dropdown } from "react-bootstrap";
-import { render } from "react-dom";
-import { Link, Redirect } from "react-router-dom";
 import "../css/Productos.css";
 
 export default class Productos extends Component {
@@ -24,8 +22,9 @@ export default class Productos extends Component {
   };
 
   render() {
-    var listaTallas = "8 10 12 14 16 S M L XL";
-    console.log(listaTallas.split(" "));
+    // let listaTallas = ["8", "10", "12", "14", "16", "S", "M", "L", "XL"];
+    let listaTallas = "8,10,12,14,16,S,M,L,XL"
+    let arrayTallas = listaTallas.split(",");
     return (
       <>
         <div style={{ backgroundColor: "#CBFFC6", paddingBottom: "10px" }}>
@@ -50,7 +49,7 @@ export default class Productos extends Component {
               {this.state.talla}
             </Dropdown.Toggle>
             <Dropdown.Menu id="listamenu">
-              {this.listaTallas.split(" ").map((item) => {
+              {arrayTallas.map((item) => {
                 return (
                   <Dropdown.Item
                     onClick={() => this.handleSelect(item)}

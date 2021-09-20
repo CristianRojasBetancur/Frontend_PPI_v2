@@ -39,7 +39,8 @@ export default class Navbar extends Component {
                   href="/inicio"
                   style={{ fontSize: "1.5em", color: "#252525" }}
                 >
-                  <FontAwesomeIcon icon={faSearch} />
+                  {/* <FontAwesomeIcon icon={faSearch} /> */}
+                  Tomas
                 </a>
               </li>
               <li className="nav-item active">
